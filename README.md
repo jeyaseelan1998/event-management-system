@@ -15,17 +15,16 @@ Tech Stack: For this project, I chose to use the MERN stack, which consists of S
 
 ## Project setup
 
-- [Live server link]()
-- [GitHub link]()
-- Clone the repo using `git clone [repo_url]`
-- copy and paste [csv_file](https://drive.google.com/file/d/1sZXyOT_V1NcZj3dDQIKY9Ea_W7XdGum_/view) into */csv* directory
+- [Live server link](https://event-management-system-n9tf.onrender.com/events/find/?Latitude=40.7128&Longitude=-74.0060&date=2024-03-15)
+- [GitHub link](https://github.com/jeyaseelan1998/event-management-system.git)
+- Clone the repo using `$ git clone https://github.com/jeyaseelan1998/event-management-system.git`
 - start app
   - `npm install`
   - `npm run dev`
 
 ## Endpoints
 
-`base_url = ""`
+`base_url = "https://event-management-system-n9tf.onrender.com"`
 
 ### `<base_url>/add-events`
 
@@ -62,14 +61,14 @@ Internal server error
 ### `<base_url>/events/find`
 
 ```
-apiUrl : <base_url>/events/find/Latitude=40.7128&Longitude=-74.0060&date=2024-03-15&pageNo=5
+sample_apiUrl = <base_url>/events/find/Latitude=40.7128&Longitude=-74.0060&date=2024-03-15&pageNo=5
 
 {
     method: "GET"
 }
 ```
 
-##### Success Response
+#### Success Response
 
 ```
 {
@@ -91,7 +90,7 @@ apiUrl : <base_url>/events/find/Latitude=40.7128&Longitude=-74.0060&date=2024-03
 ```
 
 
-##### Failure Response
+#### Failure Response
 
 ```
 Invalid query parameter values
