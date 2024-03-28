@@ -1,0 +1,4 @@
+GET http://localhost:3008/add-events
+
+###
+GET http://localhost:3008/events/find?Latitude=40.7128&Longitude=-74.0060&date=2024-03-15&pageNo=5
